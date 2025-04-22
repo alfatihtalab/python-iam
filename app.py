@@ -34,15 +34,3 @@ if __name__ == '__main__':
 
 
 
-{
-  "Effect": "Allow",
-  "Action": [
-    "ssm:StartSession",
-    "ssm:TerminateSession",
-    "ssm:DescribeSessions",
-    "ssm:GetSession",
-    "ssm:SendCommand",
-    "ssm:GetCommandInvocation"
-  ],
-  "Resource": "*"
-}
