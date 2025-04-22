@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["python", "app.py"]
+CMD ["python", "app.py",  "--host", "0.0.0.0", "--port", "5000"]
