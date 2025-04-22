@@ -30,3 +30,19 @@ def upload_file():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
+
+
+
+
+{
+  "Effect": "Allow",
+  "Action": [
+    "ssm:StartSession",
+    "ssm:TerminateSession",
+    "ssm:DescribeSessions",
+    "ssm:GetSession",
+    "ssm:SendCommand",
+    "ssm:GetCommandInvocation"
+  ],
+  "Resource": "*"
+}
